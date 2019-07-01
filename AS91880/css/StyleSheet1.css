@@ -1,0 +1,77 @@
+﻿.all {
+    display: grid;
+    margin: 0;
+    grid-template-rows: auto;
+    grid-template-columns: 300px 1fr 400px;
+    grid-template-areas: 
+        "title  title  title " 
+        "nav    main   ad    " 
+        "nav    main   ad    " 
+        "footer footer footer";
+}
+
+
+.new {
+    grid-area: title;
+    border-radius: 10px 10px 0 0;
+    background-image: url(../image/kama.jpg)
+ }
+.main {
+    grid-area: main;
+    background: #009900;
+}
+
+.nav {
+    grid-area: nav;
+    background: #5D99FF;
+    text-align: center;
+}
+
+
+
+.footer {
+    grid-area: footer;
+    background: #FF8C00;
+    border-radius: 0 0 10px 10px;
+    vertical-align: top;
+}
+
+.ad {
+    grid-area: ad;
+    background: #696969;
+    text-align: center;
+}
+
+
+
+.text{
+    text-align: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
